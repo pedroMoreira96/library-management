@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
