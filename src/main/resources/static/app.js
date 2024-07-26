@@ -16,7 +16,7 @@ function fetchBooks () {
                     <td>${book.isbn}</td>
                     <td>${book.publishedDate}</td>
                     <td>${book.price}</td>
-                    <td>
+                    <td class="action-col">
                         <button class="edit-btn">Edit</button>
                         <button class="delete-btn">Delete</button>
                     </td>

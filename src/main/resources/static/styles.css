@@ -4,20 +4,39 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1, h2 {
     color: #333;
 }
+#book-form {
+    width: 60%;
+}
+
+.form-group {
+    margin: 2%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
 
 form input {
-    margin-bottom: 10px;
-    padding: 5px;
+    padding: 0.2vw;
 }
 
 button {
-    padding: 10px 15px;
+    display: inline-block;
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px;
     background-color: #007BFF;
     color: #fff;
     border: none;
@@ -25,22 +44,28 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #0056b3;
+}
 #save-btn {
     width: fit-content;
     height: fit-content;
-    padding: 5px 10px;
+    padding: 0.5% 1%;
+    margin: 2%;
 }
 
 .delete-btn {
     background-color: red;
 }
 
-button:hover {
-    background-color: #0056b3;
+.delete-btn:hover {
+    background-color: crimson ;
 }
+
 
 table {
     border-collapse: collapse;
+    min-width: 600px;
 }
 
 table, th, td {
@@ -52,9 +77,8 @@ th, td {
     text-align: center;
     width: fit-content;
 }
-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%;
+
+.action-col {
+    white-space: nowrap;
 }
 
