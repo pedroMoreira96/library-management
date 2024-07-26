@@ -1,25 +1,57 @@
 * {
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
+    background-image: url("https://miro.medium.com/v2/resize:fit:828/format:webp/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg");
+}
+
+main {
+    width: 80%;
     font-family: Arial, sans-serif;
-    margin: 1%;
+    margin: 5% auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
+    opacity: 93%;
+    border-radius: 1%;
+    padding: 5%;
+    min-width: 650px;
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    margin: 0 0 5% 0;
+    color:  #2f2f2f;
+    font-size: xxx-large;
+    border-bottom: 5px double #2f2f2f;
+    width: 80%;
+    text-align: center;
 }
 #book-form {
-    width: 60%;
+    width: 80%;
+    padding: 2%;
+}
+
+#book-list {
+    width:80%;
+    padding: 2%;
 }
 
 .form-group {
     margin: 2%;
+}
+
+fieldset {
+    margin: 1% 0;
+    color: #2f2f2f;
+}
+
+legend {
+    font-weight: bold;
+    font-size: large;
 }
 
 form {
@@ -65,7 +97,7 @@ button:hover {
 
 table {
     border-collapse: collapse;
-    min-width: 600px;
+    margin: auto auto;
 }
 
 table, th, td {
@@ -76,6 +108,11 @@ th, td {
     padding: 8px;
     text-align: center;
     width: fit-content;
+}
+
+th {
+    background-color: dimgray;
+    color: white;
 }
 
 .action-col {
